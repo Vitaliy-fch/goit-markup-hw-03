@@ -1,0 +1,172 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+/*  Navigation*/
+.logo-link {
+  color: #4d5ae5;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-text {
+  color: #2e2f42;
+}
+.nav-item-list {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav-item-list:hover,
+.nav-item-list:focus {
+  color: #404bbf;
+}
+.contacts {
+  font-style: normal;
+}
+
+.contacts-info-list {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+.contacts-info-list:hover,
+.contacts-info-list:focus {
+  color: #404bbf;
+}
+
+.solutions {
+  background-color: #2e2f42;
+}
+.solutions-title {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/* Button */
+.custom-button {
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.custom-button:hover,
+.custom-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+/* Description of goals */
+.list-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.list-text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+/* Team information */
+.team-information {
+  background-color: #f4f4fd;
+}
+
+.information-title {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.information-list {
+  background-color: #ffffff;
+}
+
+.information-specialist {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.information-profession {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+/* Our Portfolio */
+.portfolio {
+  background-color: #ffffff;
+}
+.portfolio-title {
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+
+.list-services {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.list-services-text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+/* footer */
+.information-footer {
+  background-color: #2e2f42;
+}
+
+.information-logo {
+  color: #4d5ae5;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Raleway, sans-serif;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.information-logo-text {
+  color: #f4f4fd;
+}
+.marketing-message {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
