@@ -13,6 +13,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo-text {
   color: #2e2f42;
@@ -195,9 +196,17 @@ ul {
   list-style: none;
 }
 
+img {
+  display: block;
+}
+
 body {
   margin: 0 auto;
 }
+.container-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 section {
   max-width: 1440px;
   width: 100%;
@@ -206,9 +215,7 @@ section {
 
 .menu-header {
   display: flex;
-
   width: 100%;
-  border: 4px dashed #22e20c;
 }
 
 header a {
@@ -216,44 +223,33 @@ header a {
 }
 nav {
   display: flex;
-  border: 4px dashed #0ce2c5;
+  align-items: center;
 }
 .container-nav {
   display: flex;
-  width: 100%;
-  align-items: center;
-  margin-left: 156px;
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  padding: 0 15px;
   justify-content: space-between;
-  border: 2px dashed #d90c0c;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  border: 2px dashed #000;
-  width: 115px;
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-.menu-navigation {
-  display: flex;
-  margin-left: 76px;
-}
 .nav-item {
   display: flex;
-  align-items: center;
+  margin-right: 332px;
   gap: 40px;
-  margin: 24px 0;
-  border: 2px dashed #0abd13;
+}
+.nav-item-list {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contacts-info {
   display: flex;
   gap: 40px;
-  justify-content: flex-end;
   margin-top: 24px;
   margin-bottom: 24px;
-  border: 2px dashed #640ccf;
 }
 
 section {
@@ -267,7 +263,6 @@ section {
   display: flex;
   width: 1128px;
   justify-content: space-between;
-  border: 2px dashed #000;
   margin-left: 156px;
 }
 
@@ -275,7 +270,6 @@ section {
   max-width: 1440px;
   max-width: 100%;
   height: 732px;
-  border: 2px dashed #000;
 }
 
 .our-team {
@@ -284,14 +278,12 @@ section {
   justify-content: space-between;
   gap: 24px;
   margin-top: 72px;
-  border: 2px dashed #000;
 }
 
 .portfolio {
   max-width: 1440px;
   max-width: 100%;
   height: 732px;
-  border: 2px dashed #000;
 }
 
 .container-portfolio {
@@ -299,12 +291,10 @@ section {
   width: 1128px;
   justify-content: space-between;
   flex-wrap: wrap;
-  border: 2px dashed #000;
 }
 
 .container-footer {
   max-width: 1440px;
   max-width: 100%;
   height: 312px;
-  border: 2px dashed #000;
 }
