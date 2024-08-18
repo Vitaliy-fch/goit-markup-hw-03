@@ -289,7 +289,10 @@ header a {
   display: flex;
   width: 1128px;
   gap: 24px;
-  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.list-calc {
+  width: calc((100% - 72px) / 4);
 }
 
 .list-title {
