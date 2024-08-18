@@ -202,11 +202,6 @@ img {
   display: block;
 }
 
-div {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
 /* Header */
 
 .container-header {
@@ -220,12 +215,17 @@ header a {
   display: flex;
   align-items: center;
 }
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .container-nav {
   display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  justify-content: space-between;
 }
 
 .nav-item {
@@ -273,7 +273,7 @@ header a {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.visually-hidden {
+.information-title-one .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
