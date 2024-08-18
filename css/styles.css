@@ -249,7 +249,6 @@ header a {
 
 .solutions {
   display: flex;
-  flex-direction: column;
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -325,7 +324,6 @@ header a {
 .information-specialist-conteiner {
   padding-top: 32px;
   padding-bottom: 32px;
-  background-color: #ffffff;
 }
 
 .information-specialist {
