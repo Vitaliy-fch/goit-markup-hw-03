@@ -273,7 +273,8 @@ header a {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.information-title-one .visually-hidden {
+
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
