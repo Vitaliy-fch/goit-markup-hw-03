@@ -376,6 +376,6 @@ header a {
   padding-bottom: 8px;
 }
 
-.portfolio-list-one {
+.portfolio-list {
   width: calc((100% - 48px) / 3);
 }
