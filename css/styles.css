@@ -294,6 +294,7 @@ header a {
   display: flex;
   width: 1128px;
   gap: 24px;
+  border: 2px solid firebrick;
 }
 
 .list-calc {
@@ -304,17 +305,45 @@ header a {
   margin-bottom: 8px;
 }
 
+/* Team information */
+
 .team-information {
-  height: 732px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  border: 2px solid firebrick;
+}
+
+.information-title {
+  margin-bottom: 72px;
 }
 
 .our-team {
   display: flex;
-  width: 1128px;
-  justify-content: space-between;
+  width: 1158px;
   gap: 24px;
-  margin-top: 72px;
+  border: 2px solid rgb(84, 34, 178);
 }
+
+.information-list {
+  border-radius: 0 0 4px 4px;
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.information-specialist-conteiner {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.information-specialist {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.information-profession {
+  text-align: center;
+}
+
+/* Our Portfolio */
 
 .portfolio {
   max-width: 1440px;
