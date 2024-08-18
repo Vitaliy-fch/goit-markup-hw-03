@@ -347,7 +347,7 @@ header a {
   width: 1128px;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-title {
@@ -366,6 +366,10 @@ header a {
 
 .portfolio-list {
   width: calc((100% - 48px) / 3);
+}
+
+.portfolio-list:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 
 /* Footer  */
