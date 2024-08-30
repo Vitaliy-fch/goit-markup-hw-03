@@ -4,6 +4,30 @@ body {
   background-color: #ffffff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
 /*  Navigation*/
 .logo-link {
   color: #4d5ae5;
@@ -31,13 +55,17 @@ body {
 }
 .contacts {
   font-style: normal;
+  margin-left: auto;
 }
 
 .contacts-info-list {
   color: #434455;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: block;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   font-style: normal;
   letter-spacing: 0.02em;
 }
@@ -56,10 +84,11 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  padding-top: 188px;
   max-width: 496px;
   margin: 0 auto;
+  margin-bottom: 48px;
 }
+
 /* Button */
 .custom-button {
   color: #ffffff;
@@ -70,7 +99,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  margin-top: 48px;
+  margin: 0 auto;
 }
 .custom-button:hover,
 .custom-button:focus {
@@ -83,12 +112,12 @@ body {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .list-text {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -115,12 +144,12 @@ body {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .information-profession {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -142,13 +171,13 @@ body {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .list-services-text {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -172,35 +201,11 @@ body {
 .marketing-message {
   color: #f4f4fd;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 /* Homework #3 */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-img {
-  display: block;
-}
 
 /* Header */
 
@@ -223,17 +228,16 @@ header a {
 
 .container-nav {
   display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
+  align-items: center;
 }
 
 .nav-item {
   display: flex;
-  margin-right: 332px;
+
   gap: 40px;
 }
 .nav-item-list {
+  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -241,22 +245,13 @@ header a {
 .contacts-info {
   display: flex;
   gap: 40px;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 
 /* Main */
 
 .solutions {
-  display: flex;
   padding-top: 188px;
   padding-bottom: 188px;
-}
-
-.container-solutions {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .custom-button {
@@ -289,7 +284,6 @@ header a {
 
 .list {
   display: flex;
-  width: 1128px;
   gap: 24px;
 }
 
@@ -314,7 +308,6 @@ header a {
 
 .our-team {
   display: flex;
-  width: 1158px;
   gap: 24px;
 }
 
@@ -347,7 +340,6 @@ header a {
 
 .container-portfolio {
   display: flex;
-  width: 1128px;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
@@ -388,5 +380,5 @@ header a {
 }
 
 .marketing-message {
-  width: 264px;
+  max-width: 264px;
 }
